@@ -1,10 +1,10 @@
 {
   "name": "first-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
   
-    "start": "nodemon app.js",
+    "start": "nodemon server.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "Babawale",
