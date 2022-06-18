@@ -1,0 +1,149 @@
+.todo {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+  height: 100vh; 
+  width: 100%;
+ background-image: url("https://images.pexels.com/photos/5717479/pexels-photo-5717479.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+padding: 20px;
+filter: brightness(15%);
+background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center center;
+ background-size: cover;
+align-items: center;
+justify-content: center;
+ mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1),
+     rgba(0, 0, 0, 0.8));
+
+
+}
+
+.edit__todo {
+    background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center center;
+ background-size: cover;
+align-items: center;
+justify-content: center;
+     height: 100vh; 
+  width: 100%;
+ background-image: url("https://images.pexels.com/photos/5717432/pexels-photo-5717432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+
+}
+
+.edit__wrapper2 {
+    background-color: transparent;
+}
+
+
+.edit__wrapper {
+   display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+   height: max-content;
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 4px 7px 11px 1px #888888;
+}
+
+.edit__title {
+   
+color: rgb(255, 255, 255);
+   
+
+}
+
+.edit__form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.edit__field {
+    margin-top: 40px;
+    width: 100%;
+    height: 74px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgb(135, 131, 131);
+    border-radius: 4px;
+    outline: 0;
+    margin-bottom: 20px;
+}
+
+.edit__button {
+      background: linear-gradient(to bottom,#e0ebf5,#6d9ddb);
+    border: 1px solid;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 40%) inset;
+    margin-top: 20px;
+    margin-bottom: 20px;
+     width: 100%;
+     height: 30px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+   
+}
+
+.checkbox {
+    margin-left: 9px;
+    margin-right: 20px;
+     
+    
+    
+}
+
+.checkbox__active {
+   
+         margin-left: 9px;
+    margin-right: 20px;
+      background-color: #1e4c89;
+    
+    
+}
+
+
+
+.edit__block {
+    margin-top: 10px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.edit__block h4{
+    margin-right: 7px;
+  
+}
+@media screen and (max-width: 760px) {
+
+
+.edit__title {
+   
+font-size: 27px;
+width: 100%;
+   
+
+}
+  
+}
+
+.instructions {
+    font-size: 10px;
+    color: #888888;
+}
+
+.span {
+    font-size: 11px;
+    color: #5f5e5e;
+}
+
+

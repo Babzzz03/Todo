@@ -1,0 +1,276 @@
+.todo {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+  height: 100vh; 
+  width: 100%;
+ background-image: url("https://images.pexels.com/photos/5717479/pexels-photo-5717479.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+padding: 20px;
+filter: brightness(15%);
+background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center center;
+ background-size: cover;
+align-items: center;
+justify-content: center;
+ mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1),
+     rgba(0, 0, 0, 0.8));
+
+
+}
+
+.todos {
+  background-color: rgb(241, 243, 223);
+    height: 100vh; 
+  width: 100%;
+ background-image: url("https://images.pexels.com/photos/4195330/pexels-photo-4195330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+
+
+background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center center;
+ background-size: cover;
+position: fixed;
+
+
+
+ height: 100vh;
+ overflow: auto;
+
+}
+
+
+.list__wrapper {
+  background-color: transparent;
+
+margin-left: auto;
+margin-right: auto;
+
+padding-top: 120px;
+  width: 40%;
+  height: 100%;
+
+}
+
+@media screen and (max-width: 760px) {
+
+.list__wrapper {
+ 
+padding-top: 140px;
+  width: 90%;
+ 
+
+}
+
+.todo__wrapper {
+   
+    height: 9%;
+
+   
+
+}
+  
+}
+
+
+
+
+.input__field {
+   width: 100%;
+   padding-left: 10px;
+   padding-right: 10px;
+   border: 1px solid rgb(135, 131, 131);
+   border-top-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+  
+
+   outline: 0;
+}
+
+.input__field:focus {
+ 
+  border-color: #0049e7;
+    box-shadow: 0 0 3px 2px rgba(17, 80, 228, 0.5);
+
+}
+
+.title {
+ color: #ebe6d9;
+letter-spacing: 17px;
+  display: flex;
+  align-items: center;
+padding-left: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-weight: 900;
+  font-size: 57px;
+   font-family: "Arial Black", Gadget, sans-serif;
+     text-shadow: 0px 0px 0 rgb(223,218,205),
+                 1px -1px 0 rgb(210,205,192),
+                 2px -2px 0 rgb(198,193,180),
+                 3px -3px 0 rgb(186,181,168),
+                 4px -4px 0 rgb(174,169,156),
+                 5px -5px 0 rgb(161,156,143),
+                 6px -6px 0 rgb(149,144,131),
+                 7px -7px  0 rgb(137,132,119),
+                 8px -8px 7px rgba(51,53,74,0.54),
+                 8px -8px 1px rgba(51,53,74,0.5),
+                 0px 0px 7px rgba(51,53,74,.2);
+}
+
+
+
+
+.form {
+    width: 100%;
+    height: 40px;
+    display: flex;
+   
+    justify-content: center;
+
+}
+
+
+
+
+.todo__wrapper {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+border: 1px solid black;
+    height: 20%;
+   padding: 0 20px;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+   box-shadow: 4px 7px 11px 1px #272323;
+   
+
+}
+
+.inputed__data{
+  display: flex;
+  flex-direction: row;
+   padding: 10px 0;
+}
+.input__completed{
+ 
+  display: flex;
+  flex-direction: row;
+   padding: 10px 0;
+   
+}
+.inputed__data label {
+   padding: 7px;
+   background-color: antiquewhite;
+ 
+ 
+  
+}
+.inputed__data p{
+   padding: 7px;
+  color: rgb(51, 57, 57);
+    width: 80%;
+    text-decoration: line-through;
+      background-color: rgb(252, 250, 247);
+}
+
+
+
+
+
+.input__completed p {
+ 
+   padding: 7px;
+  width: 100%;
+  color: rgb(10, 11, 10);
+  background-color: rgb(254, 254, 254);
+   transition: 0.4s ease-in-out;
+   border-bottom: 1px solid black;
+     border-right: 1px solid black;
+      border-top-left-radius: 12px ;
+  
+}
+.input__completed p:hover {
+  
+   box-shadow: 4px 7px 11px 1px #272323;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  transition: 0.4s ease-in-out;
+  border-bottom: 1px solid black;
+     border-right: 1px solid black;
+      border-bottom-right-radius: 12px ;
+   
+}
+.icon:hover {
+  
+   box-shadow: 4px 7px 11px 1px #171616;
+}
+
+
+
+.input__completed label {
+   padding: 7px;
+   background-color: rgb(252, 251, 249);
+ 
+ 
+  
+}
+
+.submit__button {
+  background: linear-gradient(to bottom,#e0ebf5,#6d9ddb);
+   
+  width: 50px;
+  border: 1px solid rgb(50, 54, 50);
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+}
+
+.output {
+  margin-top: 40px;
+}
+
+.fa-pencil {
+  padding-right: 10px;
+  color: rgb(93, 117, 206);
+}
+
+.fa-trash-o{
+  color: rgb(185, 30, 6);
+}
+
+
+.todo__input {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.todo__input h2{
+  font-size: 34px;
+   text-shadow: 0px 0px 0 rgb(223,218,205),
+                 1px 0px 0 rgb(210,205,192),
+                 2px 0px 0 rgb(198,193,180),
+                 3px 0px 0 rgb(186,181,168),
+                 4px 0px 0 rgb(174,169,156),
+                 5px 0px 0 rgb(161,156,143),
+                 6px 0px 0 rgb(149,144,131),
+                 7px 0px  0 rgb(137,132,119),
+                 8px 0px 7px rgba(51,53,74,0.54),
+                 8px 0px 1px rgba(51,53,74,0.5),
+                 0px 0px 7px rgba(51,53,74,.2);
+}
+
+.done{
+  text-decoration: line-through;
+ 
+}
+
+.undone {
+  text-decoration: none;
+}
